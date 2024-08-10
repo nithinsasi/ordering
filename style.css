@@ -188,3 +188,11 @@ body{
     outline: 0.125rem solid var(--clr-primary);
     outline-offset: 0.25rem;
 }
+/*---------------------Features---------------------*/
+.feature{
+    background-color: var(--clr-grey-3);
+    cursor: pointer;
+}
+.feature{
+    padding: 2.5rem 0;
+}
