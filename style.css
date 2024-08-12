@@ -347,4 +347,43 @@ body{
     }
 }
 /*----------------------Service-----------------------*/
-
+.service-title{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+}
+.service-card{
+    margin: 2rem 0;
+    background-color: var(--clr-grey-3);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.service-card:hover{
+    transform: translate(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);;
+}
+.service-img{
+    height: 17rem;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.service-info{
+    text-align: center;
+    padding: 3rem 1rem 2.5rem 1rem;
+}
+.service-info p{
+    max-width: 20rem;
+    margin: 0 auto;
+    color: var(--clr-grey-2);
+}
+.service-btn{
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+    font-weight: 400;
+    margin-top: 1,25rem;
+}
